@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<?import com.sun.javafx.scene.control.CustomColorDialog.ControlsPane?>
+<VBox alignment="center" spacing="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1"
+      fx:controller="com.example.memory.MainController">
+        <TextField fx:id="player1NameField"  maxWidth="200" alignment="CENTER" promptText="Player 1 name"/>
+        <TextField fx:id="player2NameField" maxWidth="200" alignment="CENTER" promptText="Player 2 name"/>
+        <ComboBox fx:id="LevelList" promptText="Select level"/>
+        <ComboBox fx:id="ThemeList" promptText="Select theme"/>
+        <Button fx:id="startButton" text="Start" onAction="#startGame"/>
+</VBox>
